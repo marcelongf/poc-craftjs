@@ -205,6 +205,8 @@ export default function App() {
   useEffect(() => {
     const stateToLoad = await fetch("your api to get the compressed data");
     const json = lz.decompress(lz.decodeBase64(stateToLoad));
+    console.log('json')
+    console.log(json);
     setJson(json);
   }, []);
 

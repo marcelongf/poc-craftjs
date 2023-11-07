@@ -5,6 +5,7 @@
   "dependencies": {
     "@craftjs/core": "workspace:*",
     "@material-ui/core": "4.5.2",
+    "autocommerce-design-system": "git+https://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:x-oauth-basic@github.com/autoforce/autocommerce-design-system.git",
     "clsx": "latest",
     "copy-to-clipboard": "3.2.0",
     "lzutf8": "0.5.5",

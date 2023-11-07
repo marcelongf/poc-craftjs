@@ -7,6 +7,7 @@ import {
 } from '@material-ui/core';
 import React from 'react';
 
+import { Accordion } from './user/Accordion';
 import { Button } from './user/Button';
 import { Card } from './user/Card';
 import { Container } from './user/Container';
@@ -36,6 +37,15 @@ export const Toolbox = () => {
             data-cy="toolbox-button"
           >
             Button
+          </MaterialButton>
+        </Grid>
+        <Grid container direction="column" item>
+          <MaterialButton
+            ref={(ref) => connectors.create(ref, <Accordion />)}
+            variant="contained"
+            data-cy="toolbox-button"
+          >
+            Accordion
           </MaterialButton>
         </Grid>
         <Grid container direction="column" item>

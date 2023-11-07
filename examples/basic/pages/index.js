@@ -5,6 +5,7 @@ import React from 'react';
 import { SettingsPanel } from '../components/SettingsPanel';
 import { Toolbox } from '../components/Toolbox';
 import { Topbar } from '../components/Topbar';
+import { Accordion } from '../components/user/Accordion';
 import { Button } from '../components/user/Button';
 import { Card, CardBottom, CardTop } from '../components/user/Card';
 import { Container } from '../components/user/Container';
@@ -32,6 +33,7 @@ export default function App() {
           Container,
           CardTop,
           CardBottom,
+          Accordion,
         }}
       >
         <Topbar />
